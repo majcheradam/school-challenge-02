@@ -121,7 +121,61 @@ export default function Home() {
             <Image src="/Image4.png" alt="Image4" width="240" height="214" />
           </div>
         </div>
+        <div className="fifth-content">
+          <h1>Nulla commodo aliqua aliqua ut</h1>
+          <div className="fifth-flex">
+            <div className="fifth-item">
+              <p>
+                Reprehenderit esse labore id veniam ut veniam non ex adipisicing
+                amet ullamco dolor proident. Exercitation velit ea incididunt
+                sit qui do ipsum fugiat laboris minim nostrud dolor qui.
+              </p>
+              <div className="item-up">
+                <p>Ralph Richards</p>
+              </div>
+              <div className="item-down">
+                <p>UX Designer</p>
+              </div>
+            </div>
+            <div className="fifth-item">
+              <p>
+                Reprehenderit esse labore id veniam ut veniam non ex adipisicing
+                amet ullamco dolor proident. Exercitation velit ea incididunt
+                sit qui do ipsum fugiat laboris minim nostrud dolor qui.
+              </p>
+              <div className="item-up">
+                <p>Ralph Richards</p>
+              </div>
+              <div className="item-down">
+                <p>UX Designer</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
+      <footer>
+        <div className="foother">
+          <Image src="/Vector.png" alt="Figma" width="81" height="116" />
+          <div className="information">
+            <h4>cillum incididunt</h4>
+            <div className="media">
+              <Image
+                src="/Twitter_icon.png"
+                alt="Twitter"
+                width="24"
+                height="24"
+              />
+              <Image
+                src="/Facebook_icon.png"
+                alt="Facebook"
+                width="15"
+                height="24"
+              />
+            </div>
+            <p>Nostrud aliquip laboris © 2020 Wirefigma</p>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }

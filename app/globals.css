@@ -1,5 +1,5 @@
 body {
-  background-color: #ededed;
+  background-color: #e5e5e5;
   margin: 0;
 }
 .header-cointeiner {
@@ -199,4 +199,96 @@ button:hover {
   display: flex;
   justify-content: center;
   gap: 60px;
+}
+.fifth-content {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 81px;
+  width: 962px;
+  height: 445px;
+}
+.fifth-content h1 {
+  position: relative;
+  margin-bottom: 81px;
+  width: 962px;
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+  color: #2b2b2b;
+}
+.fifth-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.fifth-item {
+  position: relative;
+  height: 300px;
+  width: 434px;
+  background-color: #ebebeb;
+  box-shadow: 0px 0px 40px #3928a626;
+}
+.fifth-item p {
+  padding: 60px;
+  padding-bottom: 20px;
+  margin: 0;
+  width: 360px;
+  height: 140px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #2b2b2b;
+}
+.item-up p {
+  padding: 0;
+  padding-left: 60px;
+  margin: 0;
+  height: 28px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.item-down p {
+  padding: 0;
+  padding-left: 60px;
+  margin: 0;
+  height: 28px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.foother {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 97px;
+  margin-bottom: 39px;
+  height: 142px;
+  width: 1201px;
+  display: flex;
+  justify-content: space-between;
+}
+.information {
+  position: relative;
+  width: 147px;
+  height: 142px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.information h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+.information p {
+  font-size: 14px;
+  line-height: 21px;
+}
+.media {
+  width: 147px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
