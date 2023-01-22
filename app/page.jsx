@@ -107,6 +107,20 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="fourth-content">
+          <div className="fourth-text">
+            <h1>Where teams design together</h1>
+            <p>
+              Lorem quis sunt magna dolor consectetur aliqua officia laborum
+              reprehenderit
+            </p>
+          </div>
+          <div className="fourth-image">
+            <Image src="/Image2.png" alt="Image2" width="240" height="214" />
+            <Image src="/Image3.png" alt="Image3" width="240" height="214" />
+            <Image src="/Image4.png" alt="Image4" width="240" height="214" />
+          </div>
+        </div>
       </main>
     </div>
   )
