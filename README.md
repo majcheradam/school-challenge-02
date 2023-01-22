@@ -1,0 +1,1 @@
+Stronka na potrzeby kursu.
