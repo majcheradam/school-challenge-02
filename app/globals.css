@@ -15,7 +15,7 @@ body {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  width: 1500px;
+  width: 1171px;
   height: 40px;
   display: flex;
   align-items: center;
@@ -71,15 +71,18 @@ button:hover {
 }
 .second-content {
   position: relative;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1438px;
   height: 534px;
   margin-top: 331px;
   display: flex;
+  justify-content: center;
+  gap: 68px;
 }
 .second-text {
   position: relative;
   margin-top: 94px;
-  margin-left: 120px;
   width: 600px;
   height: 308px;
   display: flex;
@@ -95,6 +98,7 @@ button:hover {
   font-weight: 700;
   font-size: 53px;
   line-height: 64px;
+  font-weight: 700;
 }
 .mini-text {
   width: 266px;
@@ -119,4 +123,46 @@ button:hover {
   margin: 0;
   font-size: 18px;
   line-height: 28px;
+  font-weight: 700;
+}
+.third-content {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 1203px;
+  height: 257px;
+  display: flex;
+  gap: 226px;
+}
+.third-description {
+  position: relative;
+  margin-top: 50px;
+  width: 508px;
+  height: 151px;
+}
+.third-description h1 {
+  color: #2b2b2b;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 47px;
+  margin-bottom: 20px;
+}
+.third-description p {
+  color: #2b2b2b;
+  font-size: 18px;
+  line-height: 28px;
+}
+.third-text {
+  position: relative;
+  height: 216px;
+  width: 428px;
+  display: flex;
+  justify-content: space-between;
+}
+.third-text p {
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #2b2b2b;
 }

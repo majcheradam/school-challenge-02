@@ -85,6 +85,28 @@ export default function Home() {
             className="img"
           />
         </div>
+        <div className="third-content">
+          <div className="third-description">
+            <h1>Nulla ut ea</h1>
+            <p>
+              Reprehenderit esse labore id veniam ut veniam non ex adipisicing
+              amet ullamco dolor proident. Exercitation velit ea incididunt
+            </p>
+          </div>
+          <div className="third-text">
+            <div className="third-text-a">
+              <p>Graphic Design</p>
+              <p>UX Design</p>
+              <p>Prototyping</p>
+              <p>Webflow</p>
+            </div>
+            <div className="third-text-b">
+              <p>Branding</p>
+              <p>Coding</p>
+              <p>Back-End</p>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   )
