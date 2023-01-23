@@ -20,16 +20,16 @@ body {
   display: flex;
   align-items: center;
 }
-#a {
+#flex-box-logo {
   justify-content: start;
 }
-#b {
+#flex-box-navbar {
   justify-content: center;
   gap: 20px;
   color: #2b2b2b;
   font-size: 16px;
 }
-#c {
+#flex-box-button {
   justify-content: end;
 }
 a {
@@ -98,7 +98,6 @@ button:hover {
   font-weight: 700;
   font-size: 53px;
   line-height: 64px;
-  font-weight: 700;
 }
 .mini-text {
   width: 266px;

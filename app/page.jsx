@@ -12,7 +12,7 @@ export default function Home() {
     <div className={roboto.className}>
       <header>
         <div className="header-cointeiner">
-          <div className="flex-box" id="a">
+          <div className="flex-box" id="flex-box-logo">
             <Link href="/#">
               <Image
                 src="/OpenAI_LL_B.png"
@@ -22,7 +22,7 @@ export default function Home() {
               />
             </Link>
           </div>
-          <div className="flex-box" id="b">
+          <div className="flex-box" id="flex-box-navbar">
             <p>
               <Link href="/#">Product</Link>
             </p>
@@ -33,7 +33,7 @@ export default function Home() {
               <Link href="/#">Contacts</Link>
             </p>
           </div>
-          <div className="flex-box" id="c">
+          <div className="flex-box" id="flex-box-button">
             <button>Download Now</button>
           </div>
         </div>
